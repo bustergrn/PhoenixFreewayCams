@@ -1,0 +1,611 @@
+[
+    {
+        "imgSrc": "images/logos/ADOT.png",
+        "links": [
+            {
+                "href": "https://www.azdot.gov/home",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/azdot",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://www.twitter.com/azdot",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/azdot",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/AZDPS.png",
+        "links": [
+            {
+                "href": "https://www.azdot.gov/home",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/ariz.dps",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://www.twitter.com/arizona_dps",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/azdps",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/PXPD.png",
+        "links": [
+            {
+                "href": "https://www.phoenix.gov/police",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/phoenixpolice",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://www.twitter.com/phoenixpolice",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/phoenixpolice",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/PXFD.png",
+        "links": [
+            {
+                "href": "https://www.phoenix.gov/fire",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/phoenixfiredepartment",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://www.twitter.com/phxfire",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/phoenixfiredepartment",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/TMPD.png",
+        "links": [
+            {
+                "href": "https://www.tempe.gov/government/police",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/tempepolice",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://www.twitter.com/tempepolice",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/tempepolice",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/TMFD.jpg",
+        "links": [
+            {
+                "href": "https://www.tempe.gov/government/fire-medical-rescue",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/tempefire",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://www.twitter.com/tempefire",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/tempefire",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/SCPD.webp",
+        "links": [
+            {
+                "href": "https://www.scottsdaleaz.gov/police",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/ScottsdalePD",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://www.twitter.com/ScottsdalePD",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/ScottsdalePD",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/SCFD.webp",
+        "links": [
+            {
+                "href": "https://www.scottsdaleaz.gov/fire",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/ScottsdaleFire",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://www.twitter.com/ScottsdaleFire",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/scottsdaleFire",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/MEPD.png",
+        "links": [
+            {
+                "href": "https://www.mesaazpolice.gov/home-police",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/MesaAzPD",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/MesaPD",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/mesaazpd/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/MEFD.jpg",
+        "links": [
+            {
+                "href": "https://fire.mesaaz.gov/home-fire",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/MesaFireDept",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/mesafiredept",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/mesafiredept/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/CHPD.png",
+        "links": [
+            {
+                "href": "https://www.chandlerpd.com",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/ChandlerPolice",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/ChandlerPolice",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/chandlerpolice",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/CHPD.png",
+        "links": [
+            {
+                "href": "https://www.chandleraz.gov/fire",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/ChandlerFire",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/ChandlerFire",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/chandlerfire",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/GILPD.webp",
+        "links": [
+            {
+                "href": "https://www.gilbertaz.gov/departments/police",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/GilbertPD",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/GilbertPolice",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/gilbertpolice/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/GILFD.webp",
+        "links": [
+            {
+                "href": "https://www.gilbertaz.gov/departments/fire-and-rescue",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/GilbertFireDept",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/GilbertFireDept",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/gilbertfiredept/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/MCSO.jpg",
+        "links": [
+            {
+                "href": "https://www.mcso.org/",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/MCSOaz",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/mcsoaz",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/mcsoaz/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/PCSO.png",
+        "links": [
+            {
+                "href": "https://pinalcountyaz.gov/Sheriff",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/PinalCountySO",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/PinalCSO",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/pinalcountyso/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/GLPD.png",
+        "links": [
+            {
+                "href": "https://www.glendaleaz.com/police",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/GlendaleAZPD",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/GlendaleAZPD",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/glendaleazpd/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/GLFD.png",
+        "links": [
+            {
+                "href": "https://www.glendaleaz.com/fire",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/GlendaleAZFire",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/GlendaleAZFire",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/glendaleazfire/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/PEPD.jpg",
+        "links": [
+            {
+                "href": "https://www.peoriaaz.gov/government/departments/police",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/peoriaazpolice",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/PeoriaPoliceAZ",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/peoriaazpolice/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/PEFD.webp",
+        "links": [
+            {
+                "href": "https://www.peoriaaz.gov/government/departments/fire-medical",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/PeoriaFireMedical",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/PeoriaFire",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/peoriaazfire/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/SUPD.png",
+        "links": [
+            {
+                "href": "https://www.surpriseaz.gov/100/Police",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/SurprisePolice",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/Surprise_PD",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/surpriseazdps/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/SUFD.jpg",
+        "links": [
+            {
+                "href": "https://www.surpriseaz.gov/162/Fire-Medical",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/SurpriseFireMedical",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/SurpriseFD",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/surpriseazfire/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/EMPD.png",
+        "links": [
+            {
+                "href": "https://www.elmirageaz.gov/149/Police-Department",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/ElMiragePoliceDepartment",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/ElMiragePolice",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/elmiragepd/?hl=en",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/EMFD.png",
+        "links": [
+            {
+                "href": "https://www.elmirageaz.gov/147/Fire-Department",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/ElMirageFireDepartment",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/elmiragefire",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/elmiragefiredepartment/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/DMFD.avif",
+        "links": [
+            {
+                "href": "https://www.dmfd.org/",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/DaisyMountainFire",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/DaisyMtnFire",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/daisymountainfire/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/AVPD.jpg",
+        "links": [
+            {
+                "href": "https://www.avondaleaz.gov/government/departments/police-department",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/AvondalePolice",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/AvondalePolice",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/avondalepolice/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/AVFD",
+        "links": [
+            {
+                "href": "https://www.avondaleaz.gov/government/departments/fire-medical",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/AvondaleFire",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/AvondaleFire",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/avondalefire/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/GYPD.webp",
+        "links": [
+            {
+                "href": "https://www.goodyearaz.gov/government/departments-divisions/police-department",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/GoodyearPolice",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/Goodyearpolice",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/goodyearpolice/",
+                "text": "Instagram"
+            }
+        ]
+    },
+    {
+        "imgSrc": "images/logos/GYPD.webp",
+        "links": [
+            {
+                "href": "https://www.goodyearaz.gov/government/departments-divisions/fire-department",
+                "text": "Official Website"
+            },
+            {
+                "href": "https://www.facebook.com/GoodyearFire",
+                "text": "Facebook"
+            },
+            {
+                "href": "https://twitter.com/GoodyearFire",
+                "text": "Twitter"
+            },
+            {
+                "href": "https://www.instagram.com/goodyearfire/",
+                "text": "Instagram"
+            }
+        ]
+    }
+]

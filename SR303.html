@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Route 303-1</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function refreshImage(id, url) {
+            var img = document.getElementById(id);
+            var timestamp = new Date().getTime();
+            img.src = url + "?t=" + timestamp;
+        }
+
+        function startRefreshingImages() {
+            const images = [
+                { id: "img1", url: "https://www.az511.gov/map/Cctv/505--14"},
+{ id: "img2", url: "https://www.az511.gov/map/Cctv/506--14"},
+{ id: "img3", url: "https://www.az511.gov/map/Cctv/507--14"},
+{ id: "img4", url: "https://www.az511.gov/map/Cctv/508--14"},
+{ id: "img5", url: "https://www.az511.gov/map/Cctv/509--14"},
+{ id: "img6", url: "https://www.az511.gov/map/Cctv/510--14"},
+{ id: "img7", url: "https://www.az511.gov/map/Cctv/511--14"},
+{ id: "img8", url: "https://www.az511.gov/map/Cctv/512--14"},
+{ id: "img9", url: "https://www.az511.gov/map/Cctv/513--14"},
+{ id: "img10", url: "https://www.az511.gov/map/Cctv/514--14"},
+{ id: "img11", url: "https://www.az511.gov/map/Cctv/515--14"},
+{ id: "img12", url: "https://www.az511.gov/map/Cctv/516--14"},
+{ id: "img13", url: "https://www.az511.gov/map/Cctv/517--14"},
+{ id: "img14", url: "https://www.az511.gov/map/Cctv/518--14"},
+{ id: "img15", url: "https://www.az511.gov/map/Cctv/519--14"},
+{ id: "img16", url: "https://www.az511.gov/map/Cctv/521--14"},
+{ id: "img17", url: "https://www.az511.gov/map/Cctv/522--14"},
+{ id: "img18", url: "https://www.az511.gov/map/Cctv/523--14"},
+{ id: "img19", url: "https://www.az511.gov/map/Cctv/524--14"},
+{ id: "img20", url: "https://www.az511.gov/map/Cctv/525--14"},
+{ id: "img21", url: "https://www.az511.gov/map/Cctv/526--14"},
+{ id: "img22", url: "https://www.az511.gov/map/Cctv/527--14"},
+{ id: "img23", url: "https://www.az511.gov/map/Cctv/528--14"},
+{ id: "img24", url: "https://www.az511.gov/map/Cctv/529--14"},
+{ id: "img25", url: "https://www.az511.gov/map/Cctv/530--14"},
+{ id: "img26", url: "https://www.az511.gov/map/Cctv/269--14"}
+            ];
+
+            images.forEach(image => refreshImage(image.id, image.url));
+
+            setTimeout(startRefreshingImages, 2000); // Refresh every 2 seconds
+        }
+
+        window.onload = function() {
+            startRefreshingImages();
+            adjustTableCellHeight();
+        };
+
+        window.onresize = function() {
+            adjustTableCellHeight();
+        };
+
+        function adjustTableCellHeight() {
+            const imgs = document.querySelectorAll('img');
+            imgs.forEach(img => {
+                img.onload = function() {
+                    const aspectRatio = img.naturalHeight / img.naturalWidth;
+                    img.parentElement.style.height = (img.clientWidth * aspectRatio) + 'px';
+                };
+            });
+        }
+
+        function showModal(img) {
+            var modal = document.getElementById("myModal");
+            var modalImg = document.getElementById("img01");
+            modal.style.display = "block";
+            modalImg.src = img.src;
+            modalImg.onclick = function(){
+                closeModal();
+            }
+        }
+
+        function closeModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <h1 align="center">State Route 303 - McDowell (Avondale) to I17 Norterra</h1>
+    <button class="home-button" onclick="location.href='AZ511Cams.html'">Home</button>
+    <table>
+        <tr>
+       <td><img id="img1" src="https://www.az511.gov/map/Cctv/505--14" alt= "Image 1" onclick="showModal(this)"></td>
+<td><img id="img2" src="https://www.az511.gov/map/Cctv/506--14" alt= "Image 2" onclick="showModal(this)"></td>
+<td><img id="img3" src="https://www.az511.gov/map/Cctv/507--14" alt= "Image 3" onclick="showModal(this)"></td>
+<td><img id="img4" src="https://www.az511.gov/map/Cctv/508--14" alt= "Image 4" onclick="showModal(this)"></td>
+</tr>
+<tr>
+<td><img id="img5" src="https://www.az511.gov/map/Cctv/509--14" alt= "Image 5" onclick="showModal(this)"></td>
+<td><img id="img6" src="https://www.az511.gov/map/Cctv/510--14" alt= "Image 6" onclick="showModal(this)"></td>
+<td><img id="img7" src="https://www.az511.gov/map/Cctv/511--14" alt= "Image 7" onclick="showModal(this)"></td>
+<td><img id="img8" src="https://www.az511.gov/map/Cctv/512--14" alt= "Image 8" onclick="showModal(this)"></td>
+</tr>
+<tr>
+<td><img id="img9" src="https://www.az511.gov/map/Cctv/513--14" alt= "Image 9" onclick="showModal(this)"></td>
+<td><img id="img10" src="https://www.az511.gov/map/Cctv/514--14" alt= "Image 10" onclick="showModal(this)"></td>
+<td><img id="img11" src="https://www.az511.gov/map/Cctv/515--14" alt= "Image 11" onclick="showModal(this)"></td>
+<td><img id="img12" src="https://www.az511.gov/map/Cctv/516--14" alt= "Image 12" onclick="showModal(this)"></td>
+</tr>
+<tr>
+<td><img id="img13" src="https://www.az511.gov/map/Cctv/517--14" alt= "Image 13" onclick="showModal(this)"></td>
+<td><img id="img14" src="https://www.az511.gov/map/Cctv/518--14" alt= "Image 14" onclick="showModal(this)"></td>
+<td><img id="img15" src="https://www.az511.gov/map/Cctv/519--14" alt= "Image 15" onclick="showModal(this)"></td>
+<td><img id="img16" src="https://www.az511.gov/map/Cctv/521--14" alt= "Image 16" onclick="showModal(this)"></td>
+</tr>
+<tr>
+<td><img id="img17" src="https://www.az511.gov/map/Cctv/522--14" alt= "Image 17" onclick="showModal(this)"></td>
+<td><img id="img18" src="https://www.az511.gov/map/Cctv/523--14" alt= "Image 18" onclick="showModal(this)"></td>
+<td><img id="img19" src="https://www.az511.gov/map/Cctv/524--14" alt= "Image 19" onclick="showModal(this)"></td>
+<td><img id="img20" src="https://www.az511.gov/map/Cctv/525--14" alt= "Image 20" onclick="showModal(this)"></td>
+</tr>
+<tr>
+<td><img id="img21" src="https://www.az511.gov/map/Cctv/526--14" alt= "Image 21" onclick="showModal(this)"></td>
+<td><img id="img22" src="https://www.az511.gov/map/Cctv/527--14" alt= "Image 22" onclick="showModal(this)"></td>
+<td><img id="img23" src="https://www.az511.gov/map/Cctv/528--14" alt= "Image 23" onclick="showModal(this)"></td>
+<td><img id="img24" src="https://www.az511.gov/map/Cctv/529--14" alt= "Image 24" onclick="showModal(this)"></td>
+</tr>
+<tr>
+<td><img id="img25" src="https://www.az511.gov/map/Cctv/530--14" alt= "Image 25" onclick="showModal(this)"></td>
+<td><img id="img26" src="https://www.az511.gov/map/Cctv/269--14" alt= "Image 26" onclick="showModal(this)"></td>
+        </tr>
+    </table>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="img01" src="">
+        </div>
+    </div>
+    <div class="background-img">
+        <img src="images/subdueAZ.webp" alt="your mom" style="width: 100px; height: 100px;">
+    </div>
+</body>
+</html>

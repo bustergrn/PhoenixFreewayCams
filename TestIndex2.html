@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to Video</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            border: 2px solid #ccc;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img id="live-image" src="http://vods.az511.com/adot_226.jpg" alt="Live Image">
+    </div>
+    <script>
+        const imageUrl = 'http://vods.az511.com/adot_226.jpg';
+        const refreshInterval = 2000; // Refresh interval in milliseconds (5 seconds)
+        const liveImage = document.getElementById('live-image');
+
+        function updateImage() {
+            const timestamp = new Date().getTime();
+            liveImage.src = `${imageUrl}?t=${timestamp}`;
+        }
+
+        setInterval(updateImage, refreshInterval);
+    </script>
+</body>
+</html>

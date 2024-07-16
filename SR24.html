@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Route 24</title>
+<link rel="stylesheet" href="style.css">
+    <script>
+        function refreshImage(id, url) {
+            var img = document.getElementById(id);
+            var timestamp = new Date().getTime();
+            img.src = url + "?t=" + timestamp;
+        }
+        function startRefreshingImages() {
+            const images = [
+            { id: "img1", url: "https://www.az511.gov/map/Cctv/1349--14"},
+{ id: "img2", url: "https://www.az511.gov/map/Cctv/1350--14"},
+{ id: "img3", url: "https://www.az511.gov/map/Cctv/1351--14"},
+{ id: "img4", url: "https://www.az511.gov/map/Cctv/1352--14"},
+{ id: "img5", url: "https://www.az511.gov/map/Cctv/1353--14"},
+{ id: "img6", url: "https://www.az511.gov/map/Cctv/1354--14"}
+					//add images as necessary
+            ];
+
+            images.forEach(image => refreshImage(image.id, image.url));
+
+            setTimeout(startRefreshingImages, 2000); // Refresh every 2 seconds
+        }
+
+        window.onload = function() {
+            startRefreshingImages();
+            adjustTableCellHeight();
+        };
+
+        window.onresize = function() {
+            adjustTableCellHeight();
+        };
+
+        function adjustTableCellHeight() {
+            const imgs = document.querySelectorAll('img');
+            imgs.forEach(img => {
+                img.onload = function() {
+                    const aspectRatio = img.naturalHeight / img.naturalWidth;
+                    img.parentElement.style.height = (img.clientWidth * aspectRatio) + 'px';
+                };
+            });
+        }
+
+        function showModal(img) {
+            var modal = document.getElementById("myModal");
+            var modalImg = document.getElementById("img01");
+            modal.style.display = "block";
+            modalImg.src = img.src;
+            modalImg.onclick = function(){
+                closeModal();
+            }
+        }
+
+        function closeModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <h1 align="center">State Route 24 - Ray Rd. to Ironwood Dr. </h1>
+    <button class="home-button" onclick="location.href='AZ511Cams.html'">Home</button>
+    <table>
+        <tr>
+            <td><img id="img1" src="https://www.az511.gov/map/Cctv/1349--14" alt= "Image 1" onclick="showModal(this)"></td>
+<td><img id="img2" src="https://www.az511.gov/map/Cctv/1350--14" alt= "Image 2" onclick="showModal(this)"></td>
+<td><img id="img3" src="https://www.az511.gov/map/Cctv/1351--14" alt= "Image 3" onclick="showModal(this)"></td>
+</tr>
+<tr>
+<td><img id="img4" src="https://www.az511.gov/map/Cctv/1352--14" alt= "Image 4" onclick="showModal(this)"></td>
+<td><img id="img5" src="https://www.az511.gov/map/Cctv/1353--14" alt= "Image 5" onclick="showModal(this)"></td>
+<td><img id="img6" src="https://www.az511.gov/map/Cctv/1354--14" alt= "Image 6" onclick="showModal(this)"></td>
+        </tr>
+    </table>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="img01" src="">
+        </div>
+    </div>
+    <div class="background-img">
+        <img src="images/subdueAZ.webp" alt="your mom" style="width: 100px; height: 100px;">
+    </div>
+</body>
+</html>
